@@ -14,10 +14,10 @@ Homestead.json
 
 ## Storage
 storage/*
-!storage/.gitignore
-!storage/*/.gitignore
-!storage/*/*/.gitignore
+!storage/.gitkeep
+!storage/*/.gitkeep
+!storage/*/*/.gitkeep
 
 ## Documentation
 /public/docs/
-!/public/docs/.gitignore
+!/public/docs/.gitkeep
