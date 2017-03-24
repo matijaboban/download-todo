@@ -1,0 +1,36 @@
+---
+ip: "10.10.10.11"
+memory: 2048
+cpus: 1
+hostname: download-todo.dev.matijaboban.com
+name: download-todo
+provider: virtualbox
+
+authorize: ~/.ssh/id_rsa.pub
+
+keys:
+    - ~/.ssh/id_rsa
+
+folders:
+    - map: "~/Sites/download-todo"
+      to: "/home/vagrant/download-todo"
+
+sites:
+    - map: download-todo.dev.matijaboban.com
+      to: "/home/vagrant/download-todo/public"
+
+databases:
+    - download-todo-dev
+
+# blackfire:
+#     - id: foo
+#       token: bar
+#       client-id: foo
+#       client-token: bar
+
+# ports:
+#     - send: 50000
+#       to: 5000
+#     - send: 7777
+#       to: 777
+#       protocol: udp
