@@ -17,3 +17,7 @@ storage/*
 !storage/.gitignore
 !storage/*/.gitignore
 !storage/*/*/.gitignore
+
+## Documentation
+/public/docs/
+!/public/docs/.gitignore
