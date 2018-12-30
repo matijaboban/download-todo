@@ -1,5 +1,7 @@
 # Download - ToDo framework
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/matijaboban/download-todo.svg)](https://greenkeeper.io/)
+
 A "work in progress" test framework.
 
 
